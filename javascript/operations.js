@@ -11,6 +11,11 @@ function operationCalc(){
     document.getElementById('result').innerHTML = ("erro sintaxe");
 }}
 
-function del(){
+function reset(){
     document.getElementById('result').innerHTML = ("");
+}
+
+function del(){
+    var result = document.getElementById('result').innerHTML;
+    document.getElementById('result').innerHTML = result.substring(0,result.length-1);
 }
