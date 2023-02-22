@@ -9,6 +9,8 @@ function operationCalc(){
     document.getElementById('result').innerHTML = eval(result);
 }else{
     document.getElementById('result').innerHTML = ("erro sintaxe");
-}
+}}
 
+function del(){
+    document.getElementById('result').innerHTML = ("");
 }
