@@ -7,9 +7,12 @@ function operationCalc(){
     var result = document.getElementById('result').innerHTML;
     if(result){
     document.getElementById('result').innerHTML = eval(result);
-}else{
+
+}
+    else{
     document.getElementById('result').innerHTML = ("erro sintaxe");
-}}
+}
+}
 
 function reset(){
     document.getElementById('result').innerHTML = ("");
