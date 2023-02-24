@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: hsl(222, 26%, 31%);
 }
 
@@ -60,13 +61,12 @@ body{
     background:hsl(224, 36%, 15%);
     width: 14.7rem;
     height: 1rem;
-    margin: 0.2rem;
+    margin: 0.1rem;
     font-size: 1.9rem;
     color: hsl(0, 0%, 100%);
     text-align: right;
     padding: 1.5rem 0.4rem 1rem 0.4rem;
     border-radius: 0.2rem;
-    margin-right: 0.6rem;
 }
 
 .group-num{
