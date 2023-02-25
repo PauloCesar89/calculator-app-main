@@ -19,23 +19,26 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0.5rem;
     color: hsl(0, 0%, 100%);
 }
 
 .topcalc h1{
-    margin-right: 10.3rem;
+    margin-right: 7.5rem;
 }
 
 .topcalc label{
-    font-size: 0.3rem;
+    font-size: 0.4rem;
+    letter-spacing: 7px;
+    margin-bottom: 0.2rem;
     top: 0;
     left: 0;
-    transform: translate(450%, -180%);
+    transform: translate(215%, -180%);
 
 }
 
 .topcalc span{
-    margin-right: 0.2rem;     /*falta alinhar*/
+    margin-right: 0.9rem; 
     font-size: 0.3rem;
 }
 
@@ -62,20 +65,21 @@ body{
     width: 14.7rem;
     height: 1rem;
     margin: 0.1rem;
+    margin-bottom: 0.5rem;
     font-size: 1.9rem;
     color: hsl(0, 0%, 100%);
     text-align: right;
     padding: 1.5rem 0.4rem 1rem 0.4rem;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
 }
 
 .group-num{
     width: 14.5rem;
-    height: 13rem;
+    height: 12.2rem;
     font-size: 1.5rem;
     margin: 0.1rem;
     background-color: hsl(223, 31%, 20%);
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     padding: 0.5rem;
 
 
@@ -83,11 +87,12 @@ body{
 
 .num{
     width: 3rem;
-    height: 2rem;
+    height: 1.8rem;
     border-radius: 0.3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     margin: 0.3rem;
+    padding-top: 0.2rem;
     background-color: hsl(0, 23%, 97%);
     border: none;
     color: hsl(223, 31%, 20%);
@@ -95,9 +100,9 @@ body{
 
 .del{
     width: 3rem;
-    height: 2rem;
+    height: 1.8rem;
     border-radius: 0.3rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     cursor: pointer;
     margin: 0.3rem;
     background-color: hsl(222, 26%, 31%);
@@ -107,9 +112,9 @@ body{
 
 .reset{
     width: 6.8rem;
-    height: 2rem;
+    height: 1.8rem;
     border-radius: 0.3rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     cursor: pointer;
     margin: 0.1rem;
     background-color: hsl(222, 26%, 31%);
@@ -120,9 +125,9 @@ body{
 
 .equal{
     width: 6.8rem;
-    height: 2rem;
+    height: 1.8rem;
     border-radius: 0.3rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     cursor: pointer;
     margin: 0.1rem;
     background-color: hsl(6, 63%, 50%);
