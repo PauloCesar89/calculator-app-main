@@ -135,3 +135,7 @@ body{
     color: hsl(0, 23%, 97%);
     margin-left: 0.3rem;
 }
+
+body.themeTwo{
+    background: black;
+}
