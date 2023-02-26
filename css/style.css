@@ -52,7 +52,7 @@ body{
     cursor: pointer;
 }
 
-#campo::-webkit-slider-thumb{ /* estilo do cursor do tipo range*/
+#themeSelect::-webkit-slider-thumb{ /* estilo do cursor do tipo range*/
     -webkit-appearance: none; /* remove a aparencia padão */
     border: none;
     width: 15px;
