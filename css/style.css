@@ -42,9 +42,9 @@ body{
     font-size: 0.3rem;
 }
 
-.topcalc input[type='range']{ /*estilo do botão range*/
+.topcalc input[type='checkbox']{ /*estilo do botão range*/
     width: 2rem;
-    padding: 0.1rem;
+    padding: 0.3rem;
     -webkit-appearance: none; /* remove a aparencia padão */
     appearance: none;
     background-color: hsl(223, 31%, 20%);
@@ -136,6 +136,6 @@ body{
     margin-left: 0.3rem;
 }
 
-body.themeTwo{
+body.themeOne{
     background: black;
 }

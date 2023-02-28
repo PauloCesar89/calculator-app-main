@@ -22,14 +22,3 @@ function del(){
     var result = document.getElementById('result').innerHTML;
     document.getElementById('result').innerHTML = result.substring(0,result.length-1);
 }
-
-
-var $range = document.querySelector('input'),
-
-$range.addEventListener('click', function() {
-  $value.textContent = this.value;
-
-    if($value =="1"){
-        document.body.add.classList.toggle('.themeTwo');
-    }
-});
