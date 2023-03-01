@@ -1,14 +1,14 @@
 # App Calculadora
 
-Calculadora que realiza as principais operações aritiméticas e que possui três temas que podes ser selecionados no todo da calculadora
+Calculadora que realiza as principais operações aritméticas e que possui três temas que pode ser selecionado no todo da calculadora.
 
 
 ## Funcionalidades
 
-- Realiza as principais operações aritiméticas.
-- Opção de selecionar entre tr~es temas.
-- Botão de resetar a calculadora.
-- Botão de deletar os inputs na ordem que foram digitados.
+•	Realiza as principais operações aritméticas.
+•	Opção de selecionar entre três temas.
+•	Botão de resetar a calculadora.
+•	Botão de deletar os inputs na ordem que foram digitados.
 
 
 
