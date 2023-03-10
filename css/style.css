@@ -34,18 +34,27 @@ body{
     letter-spacing: 3px;
     top: 0;
     left: 0;
-    transform: translate(245%, -180%);
+    transform: translate(230%, -180%);
 }
 
 .topcalc span{
-    margin-right: 0.9rem; 
+    margin-right: 0.4rem; 
     font-size: 0.3rem;
+}
+
+.selector{
+    display: flex;
+    justify-content: space-between;
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 1rem;
+    padding: 0.1rem;
 }
 
 input[type="radio"]:checked {
     appearance: none;
-    background-color: #e60707;
-    padding: 2px;
+    background-color: hsl(6, 63%, 50%);
     width: 15px;
     height: 15px; 
     border-radius: 10px;
@@ -60,6 +69,8 @@ input[type="radio"]:checked {
     margin: 0.1rem;
     margin-bottom: 0.5rem;
     font-size: 1.9rem;
+    word-wrap: break-word;
+    overflow: hidden;
     color: hsl(0, 0%, 100%);
     text-align: right;
     padding: 1.5rem 0.4rem 1rem 0.4rem;
@@ -168,6 +179,14 @@ background-color: hsl(0, 5%, 81%);
     background-color: hsl(185, 42%, 37%);
 }
 
+.active1 input[type="radio"]:checked {
+   background-color: hsl(25, 98%, 40%);
+  }
+
+  .active1 .selector{
+    background-color: hsl(0, 5%, 81%);
+  }
+
 
 
 /*tema 3*/
@@ -211,4 +230,12 @@ background-color: hsl(268, 71%, 12%);
 .active3 .del{
     background-color: hsl(281, 89%, 26%);
 }
+
+.active3 input[type="radio"]:checked {
+    background-color: hsl(176, 100%, 44%);
+   }
+ 
+   .active3 .selector{
+     background-color: hsl(268, 71%, 12%);
+   }
 

@@ -26,7 +26,7 @@ function del(){
 
 const check2 = document.getElementById('radio2');
     check2.addEventListener('click',function(){
-        
+
         var body = document.querySelector('body');
         body.classList.remove('active3');
         body.classList.add('active1');
