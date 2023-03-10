@@ -5,6 +5,8 @@
     font-size: 32px;
 }
 
+/*tema principal*/
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -124,3 +126,89 @@ input[type="radio"]:checked {
     color: hsl(0, 23%, 97%);
     margin-left: 0.3rem;
 }
+
+/*tema 1*/
+
+.active1 {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.active1 p{
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(223, 8%, 18%);
+}
+.active1 .group-num{
+background-color: hsl(0, 5%, 81%);
+}
+
+.active1 h1{
+    color: hsl(223, 8%, 18%);
+}
+.active1 label{
+    color: hsl(223, 8%, 18%);
+}
+
+.active1 span{
+    color: hsl(223, 8%, 18%);
+}
+
+.active1 .num{
+    color: hsl(223, 8%, 18%);
+}
+
+.active1 .reset{
+    background-color: hsl(185, 42%, 37%);
+}
+
+.active1 .equal{
+    background-color: hsl(25, 98%, 40%);
+}
+
+.active1 .del{
+    background-color: hsl(185, 42%, 37%);
+}
+
+
+
+/*tema 3*/
+
+.active3 {
+    background-color: hsl(268, 75%, 9%);
+}
+
+.active3 p{
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+}
+.active3 .group-num{
+background-color: hsl(268, 71%, 12%);
+}
+
+.active3 h1{
+    color: hsl(52, 100%, 62%);
+}
+.active3 label{
+    color: hsl(52, 100%, 62%);
+}
+
+.active3 span{
+    color: hsl(52, 100%, 62%);
+}
+
+.active3 .num{
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 47%, 21%);
+}
+
+.active3 .reset{
+    background-color: hsl(281, 89%, 26%);
+}
+
+.active3 .equal{
+    background-color: hsl(176, 100%, 44%);
+}
+
+.active3 .del{
+    background-color: hsl(281, 89%, 26%);
+}
+

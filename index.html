@@ -18,45 +18,45 @@
         <h1 id="calc">calc</h1>
         <label id="label">1 2 3</label>
         <span id="theme">THEME</span>
-        <input id="radio1" for="label" type="radio" name="radio">
+        <input id="radio1" for="label" type="radio" name="radio" checked>
         <input id="radio2" for="label" type="radio" name="radio">
         <input id="radio3" for="label" type="radio" name="radio">
       </div>
       <div>
         <p id="result" class="result"></p>
       </div>
-      <div id="group-num" class="group-num">
+      <div class="group-num">
         <table>
           <tr>
-            <td><button id="num7" class="num" onclick="insert('7')">7</button></td>
-            <td><button id="num8" class="num" onclick="insert('8')">8</button></td>
-            <td><button id="num9" class="num" onclick="insert('9')">9</button></td>
-            <td><button id="del" class="del" onclick="del()">DEL</button></td>
+            <td><button class="num" onclick="insert('7')">7</button></td>
+            <td><button class="num" onclick="insert('8')">8</button></td>
+            <td><button class="num" onclick="insert('9')">9</button></td>
+            <td><button class="del" onclick="del()">DEL</button></td>
           </tr>
           <tr>
-            <td><button id="num4" class="num" onclick="insert('4')">4</button></td>
-            <td><button id="num5" class="num" onclick="insert('5')">5</button></td>
-            <td><button id="num6" class="num" onclick="insert('6')">6</button></td>
-            <td><button id="numAd" class="num" onclick="insert('+')">+</button></td>
+            <td><button class="num" onclick="insert('4')">4</button></td>
+            <td><button class="num" onclick="insert('5')">5</button></td>
+            <td><button class="num" onclick="insert('6')">6</button></td>
+            <td><button class="num" onclick="insert('+')">+</button></td>
           </tr>
           <tr>
-            <td><button id="num1" class="num" onclick="insert('1')">1</button></td>
-            <td><button id="num2" class="num" onclick="insert('2')">2</button></td>
-            <td><button id="num3" class="num" onclick="insert('3')">3</button></td>
-            <td><button id="numSub" class="num" onclick="insert('-')">-</button></td>
+            <td><button class="num" onclick="insert('1')">1</button></td>
+            <td><button class="num" onclick="insert('2')">2</button></td>
+            <td><button class="num" onclick="insert('3')">3</button></td>
+            <td><button class="num" onclick="insert('-')">-</button></td>
           </tr>
           <tr>
-            <td><button id="numPoint" class="num" onclick="insert('.')">.</button></td>
-            <td><button id="numO" class="num" onclick="insert('0')">0</button></td>
-            <td><button id="numDiv" class="num" onclick="insert('/')">/</button></td>
-            <td><button id="numMult" class="num" onclick="insert('*')">x</button></td>
+            <td><button class="num" onclick="insert('.')">.</button></td>
+            <td><button class="num" onclick="insert('0')">0</button></td>
+            <td><button class="num" onclick="insert('/')">/</button></td>
+            <td><button class="num" onclick="insert('*')">x</button></td>
          </tr>
         </table>
         <div>
           <table>
           <tr>
-            <td><button id="reset" class="reset" onclick="reset()">RESET</button></td>
-            <td><button id="equal" class="equal" onclick="operationCalc()">=</button></td>
+            <td><button class="reset" onclick="reset()">RESET</button></td>
+            <td><button class="equal" onclick="operationCalc()">=</button></td>
           </tr>
         </table>
       </div>
