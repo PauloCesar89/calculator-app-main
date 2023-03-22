@@ -6,8 +6,11 @@ Calculadora que realiza as principais operações aritméticas e que possui trê
 ## Funcionalidades
 
 •	Realiza as principais operações aritméticas.
+
 •	Opção de selecionar entre três temas.
+
 •	Botão de resetar a calculadora.
+
 •	Botão de deletar os inputs na ordem que foram digitados.
 
 
